@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string str="roshan";
+    // cout<<str<<endl;
+    // str[0]='s';
+    for(int i=0;str[i]!='\0';i++){
+        if(i%2==0) str[i]='a';
+    }
+    cout<<str;
+
+
+}
