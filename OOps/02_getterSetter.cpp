@@ -14,7 +14,7 @@ class Player{
     void sethealth(int h){
         cout<<"health is get set"<<endl;
         health=h;
-    }
+    }g
     //getter
     int getscore(){
         return score;
