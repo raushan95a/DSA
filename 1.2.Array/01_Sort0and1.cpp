@@ -8,6 +8,7 @@ void sort01M1(vector<int> &v){
         if(v[i]==0) no0++;
         else no1++;
     }
+    
     //filling elements
     for(int i=0;i<n;i++){
         if(i<no0) v[i]=0;
